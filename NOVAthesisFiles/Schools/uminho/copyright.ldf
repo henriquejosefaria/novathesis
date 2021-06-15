@@ -9,7 +9,7 @@
 
 % The following command prints the copyrigh tpage
 \newcommand{\ntprintcopyrightpage}{%
-  \thispagestyle{empty}%
+  \thispagestyle{plain}%
   \null\vfill%
   \noindent%
   \theumcopyrighttext(\option{/novathesis/copyrightlang})%
@@ -61,22 +61,24 @@
 \assocarray{umcopyrighttext}
 
 \umcopyrighttext(pt):={%
+   \noindent
   \begin{center}%
     \textbf{DIREITOS DE AUTOR E CONDIÇÕES DE UTILIZAÇÃO DO TRABALHO POR TERCEIROS}%
   \end{center}%
-  \indent Este é um trabalho académico que pode ser utilizado por terceiros desde que respeitadas as regras e boas práticas internacionalmente aceites, no que concerne aos direitos de autor e direitos conexos.\\[1ex]
-  \indent Assim, o presente trabalho pode ser utilizado nos termos previstos na licença abaixo
+  Este é um trabalho académico que pode ser utilizado por terceiros desde que respeitadas as regras e boas práticas internacionalmente aceites, no que concerne aos direitos de autor e direitos conexos.\\[1ex]
+  Assim, o presente trabalho pode ser utilizado nos termos previstos na licença abaixo
 indicada.\\[1ex]
-  \indent Caso o utilizador necessite de permissão para poder fazer um uso do trabalho em condições não previstas no licenciamento indicado, deverá contactar o autor, através do RepositoriUM da \theuniversity(\option{/novathesis/coverlang}).\\[1cm]
+  Caso o utilizador necessite de permissão para poder fazer um uso do trabalho em condições não previstas no licenciamento indicado, deverá contactar o autor, através do RepositoriUM da \theuniversity(\option{/novathesis/coverlang}).\\[1cm]
   \licenseThis%
 }
 
 \umcopyrighttext(en):={%
+\noindent
   \begin{center}
     \textbf{COPYRIGHT AND TERMS OF USE OF THIS WORK BY A THIRD PARTY}%
   \end{center}%
-  \indent This is academic work that can be used by third parties as long as internationally accepted rules and good practices regarding copyright and related rights are respected.\\[1ex]
-  \indent Accordingly, this work may be used under the license provided below.\\[1ex]
-  \indent If the user needs permission to make use of the work under conditions not provided for in the indicated licensing, they should contact the author through the RepositoriUM of \theuniversity(\option{/novathesis/coverlang}).\\[1cm]
+  This is academic work that can be used by third parties as long as internationally accepted rules and good practices regarding copyright and related rights are respected.\\[1ex]
+  Accordingly, this work may be used under the license provided below.\\[1ex]
+  If the user needs permission to make use of the work under conditions not provided for in the indicated licensing, they should contact the author through the RepositoriUM of \theuniversity(\option{/novathesis/coverlang}).\\[1cm]
   \licenseThis%
 }
